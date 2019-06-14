@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:title="Ana Sayfa"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/profil"
+            android:title="Profil" />
+
+        <item
+            android:id="@+id/using"
+            android:icon="@drawable/usermanual"
+            android:title="Nasıl kullanılır" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Çıkış" />
+    </group>
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/paylas"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/mesaj"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Bize Mesaj Atın" />
+        </menu>
+    </item>
+
+</menu>

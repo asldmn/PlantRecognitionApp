@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.misafir.bitirmeprojesi2.AddUserInformation"
+    android:background="@drawable/images">
+
+
+
+    <android.support.design.widget.TextInputLayout
+       android:layout_marginTop="25dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <EditText
+
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad Soyad *"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorWhite"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/name"
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:id="@+id/profile_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yaş *"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="8dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/age"
+        android:id="@+id/sehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:id="@+id/profile_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şehir *"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="16dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/sehir"
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <EditText
+        android:id="@+id/profile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon No"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="8dp"
+        android:maxLength="12"/>
+
+
+</android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/phone"
+        android:id="@+id/dt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/profile_birth"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Doğum Tarihi *"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+    />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/buttonSec"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/save_edit_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Tarih Seç"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/colorWhite"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/save_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorWhite"
+        android:text="Değişiklikleri kaydet"
+        android:padding="12dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#cc4242"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/dt"
+        />
+
+
+
+
+</RelativeLayout>

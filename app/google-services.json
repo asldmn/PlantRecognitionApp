@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "5216800998",
+    "firebase_url": "https://bitirmeprojesi2-a4e89.firebaseio.com",
+    "project_id": "bitirmeprojesi2-a4e89",
+    "storage_bucket": "bitirmeprojesi2-a4e89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5216800998:android:3d2f2bfa39d81c29",
+        "android_client_info": {
+          "package_name": "com.example.misafir.bitirmeprojesi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5216800998-tepfmu4qsefe7fr3p5cp06kjlmgf98hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.misafir.bitirmeprojesi2",
+            "certificate_hash": "dbcc70b9e4c32d8927aba51ecb9c59eb54a9afe0"
+          }
+        },
+        {
+          "client_id": "5216800998-inl9bbculsh3e55vs2vj0jokbom2g931.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARraObQt1YsBDTBlGCZzQHXzWlGKmYdNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5216800998-inl9bbculsh3e55vs2vj0jokbom2g931.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

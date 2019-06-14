@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bitki Dünyası</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="slide_1_desc">Fotoğraf iconunu tıklayaraj ister galeriden ister kamera ile fotoğrafını çek. Biz sana fotoğrafta hangi bitki olduğunu söyleyelim! </string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Arama sonucunu kayıt edersen arama sonuçlarında görebilirsin!</string>
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Arama sonuçlarını favorilediğinde favoriler bölümünde onları bulabilirsin. Yalnız bu özelliği kullanabilmen için üye olman gerekiyor!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Profilini istediğin gibi özelleştirebilirsin. Profil fotoğrafı ekleyip, bilgilerini ve şifreni düzenle!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">DEVAM</string>
+    <string name="skip">ATLA</string>
+    <string name="start">TAMAM</string>
+
+</resources>
